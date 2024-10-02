@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 10;
+  text-decoration: none;
+}
+
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="number"] {
+  width: calc(95%);
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #294b53;
+  border-radius: 2px;
+}
+
+.btnAdd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #294b53;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+button:hover {
+  background-color: #2597e4;
+}
+
+
+li {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+li:last-child {
+  border-bottom: none;
+}
